@@ -7,7 +7,9 @@
 	<meta name="viewport"
 		content="width=device-width,
 				initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/rock-paper-scissors.png">
+
 	<title>Rock Paper Scissor</title>
 </head>
 <body>
@@ -32,13 +34,17 @@
 		<div class="move">Choose your move</div>
 		
 		<!--Number of moves left before game ends -->
-		<div class="movesleft">Moves Left: 10 </div>
+
+        <div class="movesleft">Moves Left: 10 </div>
+
+        <div class="computerChoice"></div>
+        <div id="computerimg"></div>
 		
 		<!--Options available to player to play game -->
 		<div class="options">
-			<button class="rock">Rock</button>
-			<button class="paper">Paper</button>
-			<button class="scissor">Scissors</button>	
+			<button class="rock"><img src="img/rock.png" height="40px">Rock</button>
+			<button class="paper"><img src="img/paper.png" height="40px">Paper</button>
+			<button class="scissor"><img src="img/scissors.png" height="40px">Scissors</button>	
 		</div>
 		
 		<!--Final result of game -->
@@ -49,6 +55,6 @@
 
 	</section>
 
-	<script src="app.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
